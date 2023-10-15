@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fff;
+  background-image: url('/img/Background.webp');
+  background-repeat: no-repeat;
+  font-family: 'Inter', sans-serif;
+  padding: 60px 80px 0 80px;
+}
