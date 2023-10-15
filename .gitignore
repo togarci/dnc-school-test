@@ -24,3 +24,4 @@ logs
 !.env.example
 .prettierignore
 .prettierrc.cjs
+.vscode
