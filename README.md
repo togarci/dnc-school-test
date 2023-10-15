@@ -58,5 +58,6 @@ bun run dev
 
 Foi prototipado e desenvolvido uma home não responsiva mas integrada e funcional utilizado o Nuxt na versão. O resultado pode ser observado nos links:
 
-Projeto na Vercel: https://dnc-school-test.vercel.app/
-Prototipo no Figma: https://www.figma.com/file/CfcQqm9dqhClJgyA9XxGLc/DNC-Test?type=design&node-id=10%3A405&mode=design&t=CbE1AxIQzPtGPTWF-1
+**Projeto na Vercel:** https://dnc-school-test.vercel.app/
+<br/>
+**Prototipo no Figma:** https://www.figma.com/file/CfcQqm9dqhClJgyA9XxGLc/DNC-Test?type=design&node-id=10%3A405&mode=design&t=CbE1AxIQzPtGPTWF-1
