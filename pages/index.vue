@@ -2,7 +2,7 @@
   <div class="pb-10">
     <Header></Header>
     <main class="max-w-7xl w-3/4 mx-auto mt-20">
-      <SearchInput @setValue="setValueSearch" />
+      <SearchInput v-model="query" />
 
       <div class="relative">
         <Swiper :spaceBetween="30" :slidesPerView="5.9" class="mt-7">
@@ -20,7 +20,12 @@
       </div>
 
       <Content
-        @clickPagination="getCourses"
+        @clickPagination="
+          () => {
+            pagination += 1;
+            getCourses();
+          }
+        "
         :hasPagination="hasPagination"
         :coursesList="coursesList"
       />
@@ -40,7 +45,7 @@ export default {
       categoryList: [],
       activeCategory: [],
       coursesList: [],
-      pagination: 0,
+      pagination: 1,
       hasPagination: false,
       query: '',
     };
@@ -58,10 +63,9 @@ export default {
         : this.activeCategory.push(idCategory);
     },
     getCourses() {
-      this.pagination += 1;
       axios
         .get('/api/courses', {
-          params: { page: this.pagination },
+          params: { page: this.pagination, query: this.query },
         })
         .then(({ data }) => {
           this.coursesList = data.data;
@@ -75,7 +79,8 @@ export default {
   },
   watch: {
     query(newValue) {
-      console.log(newValue);
+      this.pagination = 1;
+      this.getCourses();
     },
   },
   components: { SelectCategory, CourseCard, Content },

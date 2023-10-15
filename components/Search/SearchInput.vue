@@ -5,7 +5,8 @@
     <input
       class="text-primary/50 text-sm h-3/4 w-full outline-none font-bold"
       type="text"
-      :v-model="inputSearch"
+      :value="modelValue"
+      @input="$emit('update:modelValue', $event.target.value)"
       placeholder="PESQUISE AQUI O QUE VOCÊ PROCURA..."
     />
     <i class="lni text-2xl lni-search-alt"></i>
@@ -15,7 +16,11 @@
 <script>
 export default {
   props: {
-    inputSearch: String,
+    modelValue: {
+      type: String,
+      default: '',
+      required: true,
+    },
   },
 };
 </script>

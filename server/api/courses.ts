@@ -490,7 +490,13 @@ export default defineEventHandler((event) => {
     },
   ];
 
-  const { page, querySearch } = getQuery(event);
+  const { page, query } = getQuery(event);
+
+  if (query)
+    data = data.filter((element) =>
+      element.course.toLowerCase().includes(String(query).toLowerCase()),
+    );
+
   let pag = Number(page) * 8;
   if (!page) return data;
 
