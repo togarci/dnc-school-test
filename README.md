@@ -1,10 +1,26 @@
-# Nuxt 3 Minimal Starter
+# Cadastro Saúde Profissional
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Sobre
 
-## Setup
+Esse repositório contem um projeto simples de um sistema de educação que foi oferecido como teste técnico pela empresa DNC.
 
-Make sure to install the dependencies:
+## Proposta
+
+Desenvolver uma plataforma de aprendizado online para uma startup de educação. A plataforma visa fornecer cursos e recursos educacionais para estudantes de todas as idades. Deve-se tambem criar um design de interface no Figma, criar um protótipo funcional.
+
+[Proposta completa](https://dncgroupbr.notion.site/Software-Eng-Front-End-PL-9b296670cb9b43239e3320da6c59068f)
+
+## Tecnologias utilizadas
+
+- Nuxt.js
+- Tailwind
+- Axios
+
+## Requisitos
+
+Para execução deste projeto é necessario da instalação do Node na versão 16 ou superior.
+
+## Instalação
 
 ```bash
 # npm
@@ -20,9 +36,9 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Execução
 
-Start the development server on `http://localhost:3000`:
+Acesse o projeto atravez do `http://localhost:3000`:
 
 ```bash
 # npm
@@ -38,38 +54,6 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Resultado
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Foi prototipado e desenvolvido uma home não responsiva mas integrada e funcional utilizado o Nuxt na versão. O resultado pode ser observado no link: https://dnc-school-test.vercel.app/
