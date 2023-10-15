@@ -8,9 +8,9 @@
         <Swiper :spaceBetween="30" :slidesPerView="5.9" class="mt-7">
           <SwiperSlide v-for="category in categoryList" :key="category.id">
             <SelectCategory
-              @click="selectCategory(category.id)"
+              @click="selectCategory(category.category)"
               :label="category.label"
-              :active="activeCategory.includes(category.id)"
+              :active="activeCategory.includes(category.category)"
             />
           </SwiperSlide>
         </Swiper>
@@ -54,18 +54,31 @@ export default {
     getCategorys() {
       axios.get('/api/categorys').then(({ data }) => {
         this.categoryList = data;
-        this.activeCategory = [data[0]?.id];
+        this.activeCategory = [data[0]?.category];
       });
     },
-    selectCategory(idCategory) {
-      this.activeCategory.includes(idCategory)
-        ? this.activeCategory.splice(this.activeCategory.indexOf(idCategory), 1)
-        : this.activeCategory.push(idCategory);
+    selectCategory(category) {
+      if (category === 'all') {
+        this.activeCategory = [];
+      } else {
+        this.activeCategory = this.activeCategory.filter((el) => el !== 'all');
+      }
+
+      this.activeCategory.includes(category)
+        ? this.activeCategory.splice(this.activeCategory.indexOf(category), 1)
+        : this.activeCategory.push(category);
+
+      if (this.activeCategory.length === 0) this.activeCategory = ['all'];
+      this.getCourses();
     },
     getCourses() {
       axios
         .get('/api/courses', {
-          params: { page: this.pagination, query: this.query },
+          params: {
+            page: this.pagination,
+            query: this.query,
+            category: this.activeCategory?.join(),
+          },
         })
         .then(({ data }) => {
           this.coursesList = data.data;

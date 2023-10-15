@@ -5,7 +5,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Desenvolvimento Web',
       category: 'web-development',
@@ -17,7 +18,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Desenvolvimento Web',
       category: 'web-development',
@@ -29,7 +31,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Desenvolvimento Web',
       category: 'web-development',
@@ -41,7 +44,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Desenvolvimento Web',
       category: 'web-development',
@@ -53,7 +57,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Design Gráfico',
       category: 'graphic-design',
@@ -65,7 +70,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Design Gráfico',
       category: 'graphic-design',
@@ -77,7 +83,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Design Gráfico',
       category: 'graphic-design',
@@ -89,7 +96,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Design Gráfico',
       category: 'graphic-design',
@@ -101,7 +109,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Marketing Digital',
       category: 'digital-marketing',
@@ -113,7 +122,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Marketing Digital',
       category: 'digital-marketing',
@@ -125,7 +135,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Marketing Digital',
       category: 'digital-marketing',
@@ -137,7 +148,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Marketing Digital',
       category: 'digital-marketing',
@@ -149,7 +161,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Ciência de Dados',
       category: 'data-science',
@@ -161,7 +174,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Ciência de Dados',
       category: 'data-science',
@@ -173,7 +187,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Ciência de Dados',
       category: 'data-science',
@@ -185,7 +200,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Ciência de Dados',
       category: 'data-science',
@@ -197,7 +213,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Programação em Python',
       category: 'python-programming',
@@ -209,7 +226,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Programação em Python',
       category: 'python-programming',
@@ -221,7 +239,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Programação em Python',
       category: 'python-programming',
@@ -233,7 +252,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Programação em Python',
       category: 'python-programming',
@@ -245,7 +265,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Redes e Segurança',
       category: 'network-security',
@@ -257,7 +278,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Redes e Segurança',
       category: 'network-security',
@@ -269,7 +291,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Redes e Segurança',
       category: 'network-security',
@@ -281,7 +304,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Redes e Segurança',
       category: 'network-security',
@@ -293,7 +317,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Desenvolvimento de Aplicativos Móveis',
       category: 'mobile-app-development',
@@ -306,7 +331,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Desenvolvimento de Aplicativos Móveis',
       category: 'mobile-app-development',
@@ -319,7 +345,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Desenvolvimento de Aplicativos Móveis',
       category: 'mobile-app-development',
@@ -332,7 +359,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Desenvolvimento de Aplicativos Móveis',
       category: 'mobile-app-development',
@@ -345,7 +373,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Inteligência Artificial',
       category: 'artificial-intelligence',
@@ -357,7 +386,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Inteligência Artificial',
       category: 'artificial-intelligence',
@@ -369,7 +399,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Inteligência Artificial',
       category: 'artificial-intelligence',
@@ -381,7 +412,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Inteligência Artificial',
       category: 'artificial-intelligence',
@@ -393,7 +425,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Desenvolvimento de Jogos',
       category: 'game-development',
@@ -406,7 +439,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Desenvolvimento de Jogos',
       category: 'game-development',
@@ -419,7 +453,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Desenvolvimento de Jogos',
       category: 'game-development',
@@ -432,7 +467,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Desenvolvimento de Jogos',
       category: 'game-development',
@@ -445,7 +481,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 1 - Cloud Computing',
       category: 'cloud-computing',
@@ -457,7 +494,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 2 - Cloud Computing',
       category: 'cloud-computing',
@@ -469,7 +507,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 3 - Cloud Computing',
       category: 'cloud-computing',
@@ -481,7 +520,8 @@ export default defineEventHandler((event) => {
       teacher: {
         id: 1,
         name: 'Maria Clara',
-        graduation: 'Mdas',
+        graduation: 'Bacharel',
+        shortGraduation: 'Prof.(a)',
       },
       course: 'Curso 4 - Cloud Computing',
       category: 'cloud-computing',
@@ -490,7 +530,12 @@ export default defineEventHandler((event) => {
     },
   ];
 
-  const { page, query } = getQuery(event);
+  const { page, query, category } = getQuery(event);
+
+  if (category && !String(category).includes('all')) {
+    let listCategorys = String(category).split(',');
+    data = data.filter((el) => listCategorys.includes(el.category));
+  }
 
   if (query)
     data = data.filter((element) =>
